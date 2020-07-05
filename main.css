@@ -1,0 +1,94 @@
+body
+{padding: 0;
+    margin:0
+    ;
+}
+
+
+h1, h2, h3, h4, h5 
+
+{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0 ;
+}
+
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+    color: #32a8a0 ;
+}
+
+h3 {
+font-size: 25px;
+color: lightseagreen;
+}
+header {
+    display: flex;
+    background-color: lightblue ;
+    
+    padding: 30px 10% ;
+    background-image: url(https://www.w3schools.com/css/mountain.jpg);
+    background-position: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #32a8a0;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px 20% ; 
+    margin-bottom: 30px;
+    place-content: place-between; 
+}
+
+img {
+    border: 5px solid #32a8a0;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  
+}
+#avatar {
+    width: 320px;
+}
+
+#info {
+    width: 50%;
+}
+
+table{
+    width: 100%;
+}
+th {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ footer {
+   text-align: center;
+   color: white;
+   position: fixed;
+   bottom: 0%;
+   margin: 0;
+   width: 100%;
+   border-top: 5px solid #32a8a0;
+
+   background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  
+    
+ }
+
+ .card {
+    box-shadow: -4px -2px 14px 0px rgba(138,119,138,1);
+    width: 30%;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+ #part-left {
+     display: flex;
+     flex-direction: column;
+ }
+ 
