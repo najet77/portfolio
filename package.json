@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "project/git/node",
+  "main": "index.html",
+  "repository": "https://github.com/najet77/portfolio.git",
+  "author": "najet77 <soussinajet91@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 9000"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
+}
